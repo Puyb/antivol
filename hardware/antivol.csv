@@ -1,16 +1,21 @@
-"Id";"Référence";"Boîtier";"Quantité";"Désignation";"Fournisseur et réf";
-1;"J3";"PinHeader_2x04_P2.54mm_Vertical";1;"Conn_01x07";;;
-2;"U1";"ESP32-WROOM-32";1;"ESP32-WROOM-32D";;;
-3;"U3";"SOT-23-5_HandSoldering";1;"SY8089AAAC(SOT23-5)";;;
-4;"U2";"InvenSense_QFN-24_4x4mm_P0.5mm";1;"MPU-6050";;;
-5;"R5";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"22k";;;
-6;"R4";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"100k";;;
-7;"R3,R2";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"10k";;;
-8;"R1";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"1K R0603";;;
-9;"L1";"L_Wuerth_HCI-5040";1;"2.2µH/1.5A";;;
-10;"J2";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06";;;
-11;"J1";"PinHeader_1x02_P2.54mm_Vertical";1;"Conn_01x02";;;
-12;"C7,C6";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";2;"47µF/6.3V";;;
-13;"C4,C3";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"0.1µF";;;
-14;"C2";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"10nF";;;
-15;"C1";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"2.2nF";;;
+Comment,Designator,Footprint,LCSC
+"10nF","C2","Capacitor_SMD:C_0603_1608Metric",""
+"0.1µF","C3","Capacitor_SMD:C_0603_1608Metric",""
+"47µF/6.3V","C7,C6,C1","Capacitor_SMD:C_0805_2012Metric",""
+"SS14","D1,D3","Diode_SMD:D_SMA",""
+"LED","D2","Diode_SMD:D_0603_1608Metric",""
+"Conn_01x02","J1,J3","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"Conn_01x06","J2","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",""
+"15µH/450mA - NLC453232T-150K-PF ","L1","Inductor_SMD:L_1812_4532Metric",""
+"AO3401A","Q1,Q2","Package_TO_SOT_SMD:SOT-23",""
+"2N7002","Q3","Package_TO_SOT_SMD:SOT-23",""
+"1K R0603","R1","Resistor_SMD:R_0603_1608Metric",""
+"10k","R2,R3,R8,R9","Resistor_SMD:R_0603_1608Metric",""
+"100k","R4","Resistor_SMD:R_0603_1608Metric",""
+"22k","R5","Resistor_SMD:R_0603_1608Metric",""
+"2.2k","R6,R7","Resistor_SMD:R_0603_1608Metric",""
+"TestPoint","TP7,TP6,TP5,TP4,TP3,TP2,TP1","TestPoint:TestPoint_Pad_D1.5mm",""
+"ESP-WROOM-32","U1","OLIMEX_Cases-FP:ESP-WROOM-32_MODULE",""
+"TP4054 (SOT23-5)","U2","Package_TO_SOT_SMD:SOT-23-5",""
+"SY8089AAAC(SOT23-5)","U3","Package_TO_SOT_SMD:SOT-23-5",""
+"KXTJ3-1057","U4","Package_LGA:LGA-12_2x2mm_P0.5mm",""
