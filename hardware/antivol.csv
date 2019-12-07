@@ -1,21 +1,17 @@
 Comment,Designator,Footprint,LCSC
-"10nF","C2","Capacitor_SMD:C_0603_1608Metric",""
-"0.1µF","C3","Capacitor_SMD:C_0603_1608Metric",""
-"47µF/6.3V","C7,C6,C1","Capacitor_SMD:C_0805_2012Metric",""
-"SS14","D1,D3","Diode_SMD:D_SMA",""
-"LED","D2","Diode_SMD:D_0603_1608Metric",""
-"Conn_01x02","J1,J3","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
-"Conn_01x06","J2","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",""
-"15µH/450mA - NLC453232T-150K-PF ","L1","Inductor_SMD:L_1812_4532Metric",""
-"AO3401A","Q1,Q2","Package_TO_SOT_SMD:SOT-23",""
-"2N7002","Q3","Package_TO_SOT_SMD:SOT-23",""
-"1K R0603","R1","Resistor_SMD:R_0603_1608Metric",""
-"10k","R2,R3,R8,R9","Resistor_SMD:R_0603_1608Metric",""
-"100k","R4","Resistor_SMD:R_0603_1608Metric",""
-"22k","R5","Resistor_SMD:R_0603_1608Metric",""
-"2.2k","R6,R7","Resistor_SMD:R_0603_1608Metric",""
-"TestPoint","TP7,TP6,TP5,TP4,TP3,TP2,TP1","TestPoint:TestPoint_Pad_D1.5mm",""
-"ESP-WROOM-32","U1","OLIMEX_Cases-FP:ESP-WROOM-32_MODULE",""
-"TP4054 (SOT23-5)","U2","Package_TO_SOT_SMD:SOT-23-5",""
-"SY8089AAAC(SOT23-5)","U3","Package_TO_SOT_SMD:SOT-23-5",""
-"KXTJ3-1057","U4","Package_LGA:LGA-12_2x2mm_P0.5mm",""
+10nF,C2,Capacitor_SMD:C_0603_1608Metric,C57112
+0.1µF,C3,Capacitor_SMD:C_0603_1608Metric,C14663
+1µF/6.3V,"C7,C6,C1",Capacitor_SMD:C_0603_1608Metric,C15849
+B5819W,"D1,D3",Diode_SMD:D_SOD-123,C8598
+LED,D2,Diode_SMD:D_0603_1608Metric,C72038
+Conn_01x02,"J1,J3",Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+Conn_01x06,J2,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,
+AO3401A,"Q1,Q2",Package_TO_SOT_SMD:SOT-23,C15127
+2N7002,Q3,Package_TO_SOT_SMD:SOT-23,C8545
+1k,"R1,R6,R10,R11,R12",Resistor_SMD:R_0603_1608Metric,C21190
+10k,"R2,R3,R8,R9,R4,R5,R7",Resistor_SMD:R_0603_1608Metric,C25804
+TestPoint,"TP7,TP6,TP5,TP4,TP3,TP2,TP1",TestPoint:TestPoint_Pad_D1.5mm,
+ESP-WROOM-32,U1,OLIMEX_Cases-FP:ESP-WROOM-32_MODULE,
+TP4054,U2,Package_TO_SOT_SMD:SOT-23-5,C32574
+ME6211C33,U3,Package_TO_SOT_SMD:SOT-23-5,C82942
+KXTJ3-1057,U4,Package_LGA:LGA-12_2x2mm_P0.5mm,C442603
